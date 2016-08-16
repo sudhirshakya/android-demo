@@ -17,4 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StaticTempleTableActivity.class);
         startActivity(intent);
     }
+
+    public void openLayoutWithMenu (View view) {
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
+    }
+
+
 }

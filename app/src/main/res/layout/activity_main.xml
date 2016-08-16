@@ -19,5 +19,6 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Layout with menu" />
+        android:text="Layout with menu"
+        android:onClick="openLayoutWithMenu" />
 </LinearLayout>

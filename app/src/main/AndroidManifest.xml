@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StaticTempleTableActivity"></activity>
+        <activity android:name=".StaticTempleTableActivity" />
+        <activity android:name=".MenuActivity"></activity>
     </application>
 
 </manifest>
