@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".StaticTempleTableActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".IntentWithExtraActivity"></activity>
+        <activity android:name=".IntentWithExtraActivity" />
+        <activity android:name=".AddDbRecordActivity"></activity>
     </application>
 
 </manifest>

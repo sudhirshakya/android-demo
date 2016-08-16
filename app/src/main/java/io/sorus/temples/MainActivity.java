@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    public void openAddRecord (View view) {
+        Intent intent = new Intent(this, AddDbRecordActivity.class);
+        startActivity(intent);
+    }
 }
