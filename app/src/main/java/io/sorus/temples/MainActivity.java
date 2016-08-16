@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ListViewCustomAdapterActivity.class);
         startActivity(intent);
     }
+
+    public void openListviewCursorAdapter (View view) {
+        Intent intent = new Intent(this, ListviewCursorActivity.class);
+        startActivity(intent);
+    }
 }
