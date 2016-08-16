@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView android:id="@+id/imageView5"
+                android:src="@drawable/swayambhu"
+
+                android:layout_column="4"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:text="Swayambhu"
+                android:id="@+id/textView14"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_toRightOf="@+id/imageView5"
+                android:padding="4dp" />
+
+            <TextView
+                android:text="Swayambhu lies atop a hill on the western edges of Kathmandu."
+                android:id="@+id/textView16"
+
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_below="@+id/textView14"
+                android:layout_toRightOf="@+id/imageView5"
+                android:singleLine="false"
+                android:maxLines="3"
+                android:gravity="fill_horizontal|center_vertical" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButton1"
+                android:layout_column="2"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/arrow_right"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_toRightOf="@+id/textView16"
+                android:onClick="showTempleDetail" />
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageView6"
+                android:src="@drawable/pashupati"
+
+                android:layout_column="4"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+
+
+            <TextView
+                android:text="Pashupati"
+                android:id="@+id/textView15"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Pashupati lies on the banks of Bagmati river on the north-west edge of Kathmandu city."
+                android:id="@+id/textView17"
+                android:layout_below="@+id/textView15"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButton2"
+                android:layout_column="2"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/arrow_right"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_alignTop="@+id/textView17"
+                android:layout_toRightOf="@+id/textView17"
+                android:onClick="showTempleDetail" />
+
+        </RelativeLayout>
+
+    </TableRow>
+
+</TableLayout>
