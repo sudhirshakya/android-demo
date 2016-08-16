@@ -34,9 +34,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
     public void openAddRecord (View view) {
         Intent intent = new Intent(this, AddDbRecordActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSimpleListview (View view) {
+        Intent intent = new Intent(this, SimpleListviewActivity.class);
+        startActivity(intent);
+    }
+
+    public void openListviewCustomAdapter (View view) {
+        Intent intent = new Intent(this, ListViewCustomAdapterActivity.class);
         startActivity(intent);
     }
 }

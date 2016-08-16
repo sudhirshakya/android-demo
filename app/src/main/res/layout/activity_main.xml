@@ -43,5 +43,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simple Listview" />
+        android:text="Simple Listview"
+        android:onClick="openSimpleListview" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listview - Custom Adapter"
+        android:onClick="openListviewCustomAdapter" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listview - Cursor Adapter" />
 </LinearLayout>
