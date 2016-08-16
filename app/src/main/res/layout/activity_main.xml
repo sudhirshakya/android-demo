@@ -21,4 +21,21 @@
         android:layout_height="wrap_content"
         android:text="Layout with menu"
         android:onClick="openLayoutWithMenu" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_intent_extra"
+        android:text="Enter text here" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent with Extra"
+        android:onClick="openIntentExtra" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Record" />
 </LinearLayout>

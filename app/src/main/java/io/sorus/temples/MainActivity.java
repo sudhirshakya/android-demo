@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +24,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openIntentExtra (View view) {
+        Intent intent = new Intent(this, IntentWithExtraActivity.class);
+
+        TextView textView = (TextView) findViewById(R.id.txt_intent_extra);
+        String message = textView.getText().toString();
+        intent.putExtra("message", message);
+
+        startActivity(intent);
+    }
 
 }
