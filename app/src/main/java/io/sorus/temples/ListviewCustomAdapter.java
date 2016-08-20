@@ -28,8 +28,10 @@ public class ListviewCustomAdapter extends ArrayAdapter<String> {
 
     @Override
     public View getView (int position, View convertView, ViewGroup parent) {
+
         LayoutInflater inflater = (LayoutInflater) ctx
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
         View rowView = inflater.inflate(R.layout.custom_listview_element, parent, false);
 
         TextView idView = (TextView) rowView.findViewById(R.id.txt_listview_index);

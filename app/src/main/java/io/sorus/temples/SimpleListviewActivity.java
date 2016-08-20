@@ -20,8 +20,11 @@ public class SimpleListviewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_listview);
 
-        SimpleListviewAdapter adapter = new SimpleListviewAdapter(this, R.layout.simple_listview_element, OS_LIST);
+        SimpleListviewAdapter adapter = new SimpleListviewAdapter(
+                this, R.layout.simple_listview_element, OS_LIST);
+
         ListView listView = (ListView) findViewById(R.id.simple_listview);
+
         listView.setAdapter(adapter);
     }
 }

@@ -21,7 +21,8 @@
         <activity android:name=".AddDbRecordActivity" />
         <activity android:name=".SimpleListviewActivity" />
         <activity android:name=".ListViewCustomAdapterActivity" />
-        <activity android:name=".ListviewCursorActivity"></activity>
+        <activity android:name=".ListviewCursorActivity" />
+        <activity android:name=".FirebaseLoginActivity"></activity>
     </application>
 
 </manifest>

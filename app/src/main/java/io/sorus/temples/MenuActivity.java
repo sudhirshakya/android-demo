@@ -1,5 +1,6 @@
 package io.sorus.temples;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -28,6 +29,10 @@ public class MenuActivity extends AppCompatActivity {
             case R.id.search_temples:
                 Toast.makeText(this, "hello from menu",
                         Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.search_temples1:
+                Intent intent = new Intent(this, AddDbRecordActivity.class);
+                startActivity(intent);
                 return true;
         }
         return true;

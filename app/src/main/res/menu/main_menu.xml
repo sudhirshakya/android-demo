@@ -5,4 +5,17 @@
         android:title="Search Places of worship"
         app:showAsAction="always"
         android:id="@+id/search_temples"/>
+
+    <item
+        android:title="Search 1"
+        app:showAsAction="never"
+        android:id="@+id/search_temples1"/>
+    <item
+        android:title="Search 2"
+        app:showAsAction="never"
+        android:id="@+id/search_temples2"/>
+    <item
+        android:title="Search 3"
+        app:showAsAction="never"
+        android:id="@+id/search_temples3"/>
 </menu>

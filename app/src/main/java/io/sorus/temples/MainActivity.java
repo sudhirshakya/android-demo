@@ -53,4 +53,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ListviewCursorActivity.class);
         startActivity(intent);
     }
+
+    public void openLogin (View view) {
+        Intent intent = new Intent(this, FirebaseLoginActivity.class);
+        startActivity(intent);
+    }
 }

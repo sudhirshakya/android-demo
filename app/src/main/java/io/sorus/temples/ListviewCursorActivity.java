@@ -14,6 +14,7 @@ public class ListviewCursorActivity extends AppCompatActivity {
 
         DBHelper helper = new DBHelper(getApplicationContext());
         Cursor cursor = helper.listAll();
+
         ListviewCursorAdapter adapter = new ListviewCursorAdapter(this, cursor);
 
         ListView layout = (ListView) findViewById(R.id.simple_listview);
