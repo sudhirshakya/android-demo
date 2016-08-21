@@ -63,4 +63,10 @@
         android:layout_height="wrap_content"
         android:text="Google Login"
         android:onClick="openLogin" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:onClick="openCamera" />
 </LinearLayout>

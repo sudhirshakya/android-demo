@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.sorus.temples">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,7 +24,8 @@
         <activity android:name=".SimpleListviewActivity" />
         <activity android:name=".ListViewCustomAdapterActivity" />
         <activity android:name=".ListviewCursorActivity" />
-        <activity android:name=".FirebaseLoginActivity"></activity>
+        <activity android:name=".FirebaseLoginActivity" />
+        <activity android:name=".CameraActivity" />
     </application>
 
 </manifest>

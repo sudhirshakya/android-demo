@@ -58,4 +58,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FirebaseLoginActivity.class);
         startActivity(intent);
     }
+
+    public void openCamera (View view) {
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
+    }
 }
